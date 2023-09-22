@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(155, 217, 124, 0.24);
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.users__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px 20px;
+}
+
+.users__list-item {
+    color: black;
+    text-decoration: none;
+}
+
+.users__list-item:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.7);
+}
